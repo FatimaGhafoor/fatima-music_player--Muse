@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://github.com/FatimaGhafoor/image_hosting_collection_by_f-tima_ghaf00r/blob/main/muse_logo.png?raw=true"
+      type="image/png"
+    />
+
+    <meta
+      name="description"
+      content="Muse - Your personal, minimalist music player built by Fatima Ghafoor."
+    />
+
+    <title>Muse Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="https://github.com/FatimaGhafoor/image_hosting_collection_by_f-tima_ghaf00r/blob/main/muse_logo.png?raw=true" alt="Muse Logo" class="logo-img" />
+        <h1 class="logo-text">Muse</h1>
+      </div>
+      <p>Your personal minimalist music player 🎵</p>
+    </header>
+
+    <main>
+      <section class="player-container">
+        <div class="track-info">
+          <h2 id="track-title">Track 1 - Artist 1</h2>
+          <p id="track-artist">Artist 1</p>
+        </div>
+
+        <div class="controls">
+          <button id="prev" aria-label="Previous Song">⏮️</button>
+          <button id="play" aria-label="Play">▶️</button>
+          <button id="pause" aria-label="Pause">⏸️</button>
+          <button id="next" aria-label="Next Song">⏭️</button>
+
+          <div class="time">
+            <span id="current-time">0:00</span>
+            <input type="range" id="progress" value="0" />
+            <span id="duration">0:00</span>
+          </div>
+
+          <div class="volume-control">
+            <label for="volume">🔊</label>
+            <input
+              type="range"
+              id="volume"
+              min="0"
+              max="100"
+              step="1"
+              value="80"
+            />
+          </div>
+        </div>
+
+        <audio id="audio"></audio>
+      </section>
+
+      <section class="playlist">
+        <ul id="playlist">
+          <li
+            class="active"
+            data-src="assets/audio/track1.mp3"
+            data-artist="Artist 1"
+          >
+            Ultra brain waves<br />
+            Muhamad_hassan
+          </li>
+          <li data-src="assets/audio/track2.mp3" data-artist="Artist 2">
+            Act <br />
+            Your_Music_666
+          </li>
+          <li data-src="assets/audio/track3.mp3" data-artist="Artist 3">
+            Hope <br />
+            Viio_C
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with 🎶 by Fatima</p>
+    </footer>
+    <script src="index.js" defer></script>
+  </body>
+</html>
