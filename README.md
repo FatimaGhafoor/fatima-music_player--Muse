@@ -1,6 +1,7 @@
 # fatima-music_player--Muse
 A simple music player built with HTML, CSS, and JavaScript
-🎵 CodeAlpha Music Player
+
+🎵 Music Player
 
 A modern, responsive web-based music player built with HTML, CSS, and JavaScript, designed to deliver a smooth and intuitive audio experience directly in the browser.
 Simple in concept, elegant in execution—this project reflects my journey of turning logic into rhythm.
@@ -38,7 +39,12 @@ No frameworks. No shortcuts. Just fundamentals done right.
 📂 Project Structure
 CodeAlpha-Music-Player/
 │
+
 ├── index.html        # Main HTML structure
+
 ├── styles.css        # Styling, theme variables & responsiveness
+
 ├── index.js          # Music player logic and controls
+
 └── assets/           # Audio files & images (if added)
+
