@@ -1,5 +1,6 @@
 # fatima-music_player--Muse
 A simple music player built with HTML, CSS, and JavaScript
+GO LIVE HERE: https://fatimaghafoor.github.io/fatima-music_player--Muse/
 
 🎵 Music Player
 
